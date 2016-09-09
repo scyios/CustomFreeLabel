@@ -78,6 +78,14 @@
     if (attStr.length < textWidth) {
         leng = attStr.length;
     }
+    /**
+     *  <#Description#>
+     *
+     *  @param 0    <#0 description#>
+     *  @param leng <#leng description#>
+     *
+     *  @return <#return value description#>
+     */
     //根据给定长度与style设置attStr式样
     [attStr addAttribute:NSParagraphStyleAttributeName value:style range:NSMakeRange(0, leng)];
     //Label获取attStr式样
